@@ -10,9 +10,7 @@ function writeUser(parent, userObj){
     const origurl = new URL(window.location);
     const gotourl = new URL(origurl.origin + origurl.pathname.substring(0, origurl.pathname.lastIndexOf('/')) + '/user-details.html');
     gotourl.searchParams.set('user_id', userObj.id);
-    insertButton(user_c, 'Details', gotourl.href, 'btn_userdetails');
-    console.log(gotourl);
-    
+    insertButton(user_c, 'Details', gotourl.href, 'btn_userdetails');    
 }
 
 //const tmp = {
