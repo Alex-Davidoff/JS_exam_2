@@ -1,0 +1,28 @@
+#userblock{
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_showUserPosts{
+    width: 90%;
+    margin: 0 auto;
+    height: 1.5rem;
+}
+
+#postsblock{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.post{
+    margin: 1%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+#postblock{
+    border-radius: 1rem;
+    background-color: burlywood;
+    padding: 1rem;
+}
+
+#commentsblock{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.comment{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color:darkseagreen;
+    margin: 1%;
+}

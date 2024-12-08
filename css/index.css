@@ -1,0 +1,13 @@
+#usersblock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user{
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1%;
+    width: 48%;
+}
